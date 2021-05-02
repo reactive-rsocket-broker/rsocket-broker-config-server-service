@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.alibaba.rsocket.config</groupId>
-    <artifactId>rsocket-broker-config-server</artifactId>
+    <artifactId>rsocket-broker-config-server-service</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <name>Configuration service for Alibaba RSocket Broker</name>
