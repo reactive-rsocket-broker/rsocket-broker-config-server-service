@@ -1,0 +1,15 @@
+### get app configuration
+GET http://localhost:8280/config/last/demo-app/application.properties
+
+### update app configuration
+POST http://localhost:8280/config/update/demo-app/application.properties
+Content-Type: text/plain
+
+nick=leijuan
+email=xxx@yyy.com
+
+### Trigger app config push
+POST http://localhost:8280/config/refresh/demo-app
+
+### visit demo-app index page
+GET http://localhost:8281/
